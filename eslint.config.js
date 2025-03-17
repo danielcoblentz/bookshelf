@@ -16,7 +16,7 @@ export default [
           presets: ["@babel/preset-react"],
         },
         ecmaFeatures: {
-          jsx: true, // Enable JSX parsing
+          jsx: true, // enable JSX parsing
         },
       },
       globals: globals.browser,
