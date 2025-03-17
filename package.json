@@ -20,6 +20,10 @@
     "tailwindcss": "^4.0.12"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.26.10",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "standard": "^17.1.2",
     "textlint": "^14.5.0",
     "textlint-rule-no-todo": "^2.0.1",

@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
 // create a schema
 const bookSchema = new mongoose.Schema({
@@ -7,8 +7,8 @@ const bookSchema = new mongoose.Schema({
   publicationYear: Number,
   genre: String,
   isbn: String,
-  timestamps: true // created at, unpdated at
-})
+  timestamps: true, // created at, unpdated at
+});
 
-const Book = mongoose.model('Book', bookSchema)
-export default Book
+const Book = mongoose.model("Book", bookSchema);
+export default Book;
